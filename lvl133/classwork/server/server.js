@@ -3,7 +3,7 @@ import cors from "cors"
 
 const PORT = 5000
 const app = express()
-app.use(cors({origin: "http://localhost:5173"}))
+app.use(cors({origin: "http://localhost:5174"}))
 
 const user = {
     id: 1,
